@@ -1,0 +1,164 @@
+.react-flow__node-selectorNode {
+    font-size: 12px;
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.react-flow__controls {
+    top: 25px;
+    left: 25px;
+    bottom: auto !important;
+}
+
+.flow_box {
+    width: 220px;
+    min-height: 115px;
+}
+
+.flow_title {
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+
+    .flow_box_title_icon {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+}
+
+.flow_title_3 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.flow_content {
+    min-height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .flow_c_t {
+        margin-top: 13px;
+        font-size: 14px;
+    }
+
+    .flow_total {
+        margin-top: 9px;
+        font-size: 20px;
+    }
+}
+
+.flow_content_list {
+    padding: 12px 10px;
+    font-size: 14px;
+
+    .flow_content_hash_item {
+        width: 100%;
+        background: #0365BD0C;
+        margin-bottom: 8px;
+        border-radius: 2px;
+        padding: 10px 13px 8px 13px;
+        box-sizing: border-box;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .flow_content_hash_item_name {
+        color: #4E4E4E;
+        width: 100%;
+        position: relative;
+        text-align: justify !important;
+        text-align-last: left !important;
+
+
+        &:after {
+            content: "";
+            width: 100%;
+            height: 1px;
+            background: #BEBEBE;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+        }
+    }
+
+    .flow_content_hash_item_quantity {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6px;
+        color: #0063BC;
+    }
+
+    .flow_content_hash_item_unit {
+        margin-left: 6px;
+        color: #000;
+    }
+}
+
+.flow_content_hash {
+    font-size: 14px;
+
+    .flow_content_hash_total {
+        display: flex;
+        height: 36px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .flow_hash_total {
+        margin-right: 6px;
+    }
+
+    .flow_hash_name {
+        display: flex;
+        height: 74px;
+        position: relative;
+
+        >div {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .flow_hash_br {
+        position: absolute;
+        height: 60%;
+        width: 1px;
+        left: 50%;
+        top: 20%;
+    }
+
+    .flow_hash_n {
+        margin-bottom: 6px;
+    }
+
+    .flow_hash_names {
+        margin-right: 6px;
+    }
+}
+
+.isWenti {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.flow_content_hash_item_names {
+    color: #4E4E4E;
+    width: 100%;
+    position: relative;
+    text-align: justify !important;
+    text-align-last: left !important;
+}

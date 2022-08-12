@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "author": "yoke <m17633465271@163.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@antv/x6": "^1.33.0",
+    "@antv/x6-react-shape": "^1.6.1",
+    "classnames": "^2.3.1",
+    "react-flow-renderer": "^10.3.14",
+    "svg-to-image": "^1.1.3",
+    "umi": "^4.0.11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2"
+  }
+}
